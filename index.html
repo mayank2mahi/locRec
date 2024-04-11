@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location Tracker</title>
+</head>
+<body onload="access()">
+    <button class="startButton">Start Accepting</button>
+    <button class="stopButton">Stop</button>
+    <div class="recievedData">
+        <p>Location Coordinates Recieved: </p>
+        <p class="remoteLatitude">Latitude: </p>
+        <p class="remoteLongitude">Longitude: </p>
+    </div>
+    <div class="localData">
+        <p>Location Coordinates of User: </p>
+        <p class="userLatitude">Latitude: </p>
+        <p class="userLongitude">Longitude: </p>
+    </div>
+    <div>
+        <p class="distance">Distance: </p>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
